@@ -22,14 +22,14 @@ function DependencyNode (graph, data, parentNode) {
 
 // Maps node type to group number
 var typeToGroup = {
-		"State": 0,
-		"Rate": 1,
-		"Constitutive": 2,
+		"Pathway": 0,
+		"Publications": 1,
+		"Experiments": 2,
 };
 
 // Maps node type to node color
 var typeToColor = {
-		"State": "#1F77B4",
-		"Rate": "#2CA02C",
-		"Constitutive": "#FF7F0E"
+		"Pathway": "#1F77B4",
+		"Publications": "#2CA02C",
+		"Experiments": "#FF7F0E"
 };
